@@ -54,7 +54,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App app = new App();
+        App app = new App();    //Couldn't use the name of the file? Had to use the path for Windows instead?
         app.indexWordsFromFile("C:\\Users\\blake\\OneDrive\\Documents\\GitHub\\CSC216-Searching-for-the-Answer-OCERESA\\app\\src\\main\\java\\org\\example\\sample.txt");   
-    }
 }
